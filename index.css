@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: red;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+#div1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    margin: 5px auto;
+}
+
+#p0s {}
