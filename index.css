@@ -23,4 +23,81 @@ h2 {
     margin: 5px auto;
 }
 
-#p0s {}
+#p0s {
+    margin-top: 20px;
+}
+
+#container1 {
+    width: 48%;
+    height: 150px;
+    border: 1px solid rgb(194, 129, 129);
+    float: left;
+}
+
+#container2 {
+    width: 48%;
+    height: 150px;
+    border: 1px solid rgb(179, 124, 124);
+    float: left;
+    margin-left: 20px;
+}
+
+#container3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 30px;
+}
+
+button {
+    padding: 5px;
+    color: red;
+    border: 2px solid green;
+}
+
+h3 {
+    color: red;
+}
+
+#capturePage {
+    color: green;
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+}
+
+#printPDF {
+    color: green;
+    text-align: center;
+    float: right;
+    margin-right: 150px;
+}
+
+#splashWin {
+    margin-top: 50px;
+}
+
+#p01 {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid yellow;
+    background-color: aquamarine;
+    margin-left: 115px;
+}
+
+#p01 p {
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+
+#p02 {
+    border: 1px solid yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
