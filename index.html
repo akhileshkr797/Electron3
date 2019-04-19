@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>SampleProject</title>
+</head>
+
+<body style="text-align:center; border: 2px solid greenyellow">
+
+    <h3>Electron Practice</h3>
+    <p>
+        First, we are setting the width and height to arbitrary numbers – your typical size of 320 by 240 pixels. These numbers may change depending on the design of the content you may be placing inside your splash window. For now, since our splash window will
+        be basically blank, we’ll go with this size. The next property, frame, is the property that sets the frame around the window. For our styling purposes, we’re going to set frame to false so there will not be a border around our splash window. The
+        resizable property controls whether the user can resize our splash window. Combined with having no frame, this is a visual indication to the user that this window doesn’t expect any interaction. Finally, we have the alwaysOnTop and show properties.
+        We want the splash window to appear above all of our other windows, so we need alwaysOnTop to be set to true. If we did not use the alwaysOnTop setting, or if we set it to false, the next window we created would appear over our splash window.
+        Setting the show property to false gives us the ability to display our splash window once it is ready. Later in this method we use the ‘ready-to-show’ event to show our splash window.
+    </p>
+
+</body>
+
+<script>
+    require('./renderer.js')
+</script>
+
+</html>
