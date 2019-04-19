@@ -1,0 +1,19 @@
+{
+    "name": "electron3",
+    "version": "1.0.0",
+    "description": "sample Electron Practice",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akhileshkr797/Electron3.git"
+    },
+    "author": "akhi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/akhileshkr797/Electron3/issues"
+    },
+    "homepage": "https://github.com/akhileshkr797/Electron3#readme"
+}
